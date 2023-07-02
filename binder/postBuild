@@ -23,4 +23,4 @@ mkdir -p $HOME/.jupyter/
 mv $HOME/binder/jupyter_notebook_config.py $HOME/.jupyter/
 
 # Enable JupyterLab launcher
-jupyter labextension install @jupyterlab/server-proxy
+# jupyter labextension install @jupyterlab/server-proxy
