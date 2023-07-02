@@ -2,7 +2,8 @@
 set -e
 
 # Download OpenRefine https://github.com/OpenRefine/OpenRefine/
-wget -q -O openrefine.tar.gz https://github.com/OpenRefine/OpenRefine/releases/download/3.5.0/openrefine-linux-3.5.0.tar.gz
+REFINE_VERSION=3.7.2
+wget -q -O openrefine.tar.gz https://github.com/OpenRefine/OpenRefine/releases/download/$REFINE_VERSION/openrefine-linux-$REFINE_VERSION.tar.gz
 mkdir -p $HOME/.openrefine # app
 tar -xzf openrefine.tar.gz -C $HOME/.openrefine --strip 1
 rm openrefine.tar.gz
