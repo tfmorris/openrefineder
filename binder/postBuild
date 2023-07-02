@@ -21,7 +21,3 @@ python -m bash_kernel.install
 # move traitlet config in one of the Jupyter config directories
 mkdir -p $HOME/.jupyter/
 mv $HOME/binder/jupyter_server_config.py $HOME/.jupyter/
-
-# Enable JupyterLab launcher
-jupyter labextension install @jupyterlab/server-proxy
-
